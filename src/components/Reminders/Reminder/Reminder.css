@@ -1,0 +1,12 @@
+.line{
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    border-top: 1px solid #000;
+    margin: 8px 25px;
+}
+.info{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}

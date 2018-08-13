@@ -1,0 +1,28 @@
+.mainDiv{
+    width: 99%;
+    text-align: left;
+}
+.info{
+    white-space: nowrap;
+    width: 100%;
+    line-height: 2px;
+    padding: 0 10px;
+}
+.rankInfo{
+    display: inline-block;
+    vertical-align: top;
+    max-width: 80%;
+    min-width: 50%;
+    white-space: pre-wrap;
+    line-height: 15px;
+}
+.comment{
+    font-size: 12px;
+    line-height: 13px;
+}
+.line{
+    border-width: 1px;
+    border-top: 1px solid #000;
+    width: 90%;
+    margin: -8px 0;   
+}

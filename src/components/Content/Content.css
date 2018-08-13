@@ -1,0 +1,43 @@
+.row{
+    height: auto;
+    display: flex;
+}
+.left{
+    flex: 22.5%;
+}
+.right{
+    flex: 32.5%;
+}
+.middle{
+    flex: 45%;
+}
+.user{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 50px; /* required */
+}
+.rankCal{
+    position: sticky;
+    position: -webkit-sticky;
+    top: -100px; /* required */
+}
+
+@media (max-width: 749px){
+    .middle{
+        flex: 60%;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        flex: 40%;
+    }
+}
+@media (max-width: 599px){
+    .middle{
+        flex: 100%;
+    }
+    .right{
+        display: none
+    }
+}

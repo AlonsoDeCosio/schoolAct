@@ -1,0 +1,48 @@
+.mainDiv{
+    background-color: #FFFFFF;
+    border: 2px solid #4990E2;
+    width: 99%;
+    height: 100px;  
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+.comments{
+    display: block;
+    width: 95%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    border-bottom: 1px solid #4990E2;
+    font-size: 16px;
+}
+.attacheButtons{
+    margin-left: 10px;
+    margin-top: -15px;
+    margin-right: 10px;
+}
+.mainDiv .attache{
+    border-radius: 15px;
+    font: inherit;
+    padding: 5px 15px;
+    margin: 5px;
+    border: 1px solid #4990E2;
+    cursor: pointer;
+    outline: none;
+    float: left;
+}
+.mainDiv .publicar{
+    float: right;
+    border-radius: 15px;
+    font: inherit;
+    padding: 5px 15px;
+    margin: 5px;
+    color: #FFFFFF;
+    background-color: #4990E2;
+    cursor: pointer;
+    outline: none;
+}

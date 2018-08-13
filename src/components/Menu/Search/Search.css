@@ -1,0 +1,23 @@
+.search{
+    font-size: 80%;
+    display: flex;
+    margin:0 10px;
+    padding: 1px;
+}
+
+.search input[type=text] {
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: inherit;
+    border: none;
+    border-radius: 10px;
+    
+}
+  
+.search button {
+    background: transparent;
+    margin-left: -30px;
+    border: none;
+    cursor: pointer;
+}
+  

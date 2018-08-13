@@ -1,0 +1,53 @@
+.mainDiv{
+    background-color: #FFFFFF;
+    border: 2px solid #4990E2;
+    width: 99%;
+    
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+    border-radius: 15px;
+}
+.title{
+    white-space: nowrap;
+    height: 60px;
+    width: 100%;
+    line-height: 2px;
+}
+.inerTitle{
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+.timestamp{
+    font-size: 12px;
+}
+.comment{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    max-height: 300px;
+}
+.attach{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.img{
+    max-width: 100%;
+    max-height: 250px;
+    margin: auto;
+}
+.like{ 
+    white-space: nowrap;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    margin-top: -15px;
+    
+}
+.inerLike{
+    display: inline-block;
+    padding-left: 10px;
+}

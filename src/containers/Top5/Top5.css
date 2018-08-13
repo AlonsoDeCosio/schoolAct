@@ -1,0 +1,29 @@
+.rankDiv{
+    background-color: #FFFFFF;
+    border: 2px solid #4990E2;
+    width: 85%;
+    margin: 50px auto; /*this is use to center the div*/
+    text-align: center;
+    height: 400px;  
+}
+.div{
+    height: 80%;
+    overflow: scroll;
+}
+.rankImg{
+    margin-top: -50px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 2px solid #4990E2;
+    width: 40px;
+    height: 40px;
+    margin-left: auto; 
+    margin-right: auto;
+    
+}
+.img{
+    width: 40px;
+    height: 40px;
+    margin-top: -5px; 
+}
