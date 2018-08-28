@@ -6,6 +6,9 @@
     text-align: center;
     height: 400px;  
 }
+::-webkit-scrollbar { 
+    display: none; 
+}
 .div{
     height: 80%;
     overflow: scroll;
@@ -26,4 +29,8 @@
     width: 40px;
     height: 40px;
     margin-top: -5px; 
+}
+/* usamos esto para que no se muestre el diseno del scrollbar, pero si funcione*/
+::-webkit-scrollbar { 
+    display: none; 
 }

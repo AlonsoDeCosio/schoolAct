@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Content.css'
+import classes from './Community.css'
 import User from '../../containers/User/User'
 import Top5 from '../../containers/Top5/Top5'
 import Calendar from '../../containers/Calendar/Calendar'

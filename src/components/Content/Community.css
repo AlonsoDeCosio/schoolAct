@@ -19,7 +19,7 @@
 .rankCal{
     position: sticky;
     position: -webkit-sticky;
-    top: -100px; /* required */
+    top: -200px; /* required */
 }
 
 @media (max-width: 749px){
