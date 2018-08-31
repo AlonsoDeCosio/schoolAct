@@ -12,7 +12,7 @@ const comment = (props) => {
         attachment = (<img src={dynamic} alt="User" className={classes.img} align="top" />);
     }
     //tenemos que sacar el tiempo
-    var timeStamp = (new Date(props.timestamp * 1000)).toDateString(); //obtenemos el tiempo anterior
+    var timeStamp = (new Date(props.timestamp)).toDateString(); //obtenemos el tiempo anterior
 
     return (
         <div className={classes.mainDiv}>
