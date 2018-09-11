@@ -1,2 +1,2 @@
 # schoolAct
-Trabo de la tesis
+Trabjo de la tesis
